@@ -7,8 +7,8 @@ import cv2
 from scipy.spatial.transform import Rotation
 import scipy.misc
 
-rgb_path="2022-12-21-15-57-16-car/rgb"
-depth_path="2022-12-21-15-57-16-car/depth"
+rgb_path=""    #2022-12-21-15-57-16-car/rgb
+depth_path=""  #2022-12-21-15-57-16-car/depth
 
 FrameTrajs=np.loadtxt("2022-12-21-15-57-16-car/CameraTrajectory.txt")#
 KeyFrameTrajs=np.array(FrameTrajs[0:3000:30][:])#
